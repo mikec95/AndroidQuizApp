@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    android:background="@drawable/ic_bg"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_trophy"/>
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grats"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_score"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/finish"
+        android:textColor="@color/purple_200"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>
